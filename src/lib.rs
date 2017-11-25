@@ -13,13 +13,13 @@ lazy_static! {
 }
 
 
-pub trait Spawn {
+pub trait FutureExt {
     type Item;
     type Error;
     fn spawn(self) -> CpuFuture<Self::Item, Self::Error>;
 }
 
-impl<F> Spawn for F where
+impl<F> FutureExt for F where
         F: Future + Send + 'static,
         F::Item: Send + 'static,
         F::Error: Send + 'static
