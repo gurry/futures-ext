@@ -1,8 +1,8 @@
 [package]
 authors = ["Gurinder Singh <gurinder.singh@1e.com>"]
-name = "futures-spawn"
+name = "futures-ext"
 version = "0.1.0"
-repository = "https://github.com/gurry/futures-spawn"
+repository = "https://github.com/gurry/futures-ext"
 license = "MIT"
 
 [dependencies]
