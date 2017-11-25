@@ -2,6 +2,8 @@
 authors = ["Gurinder Singh <gurinder.singh@1e.com>"]
 name = "futures-spawn"
 version = "0.1.0"
+repository = "https://github.com/gurry/futures-spawn"
+license = "MIT"
 
 [dependencies]
 futures = "0.1.17"
