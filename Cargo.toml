@@ -2,6 +2,7 @@
 name = "futures-ext"
 authors = ["Gurinder Singh <gurinder.singh@1e.com>"]
 version = "0.1.0"
+description = "A crate that provides some useful extension methods on a Future"
 repository = "https://github.com/gurry/futures-ext"
 license = "MIT"
 
