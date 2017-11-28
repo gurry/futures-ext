@@ -1,2 +1,2 @@
-# futures-spawn
-A crate that provides a simple way to spawn a future on the CPU pool
+# futures-ext
+A crate that provides some useful extension methods on a Future
