@@ -1,9 +1,9 @@
 [package]
-authors = ["Gurinder Singh <gurinder.singh@1e.com>"]
-license = "MIT"
 name = "futures-ext"
-repository = "https://github.com/gurry/futures-ext"
+authors = ["Gurinder Singh <gurinder.singh@1e.com>"]
 version = "0.1.0"
+repository = "https://github.com/gurry/futures-ext"
+license = "MIT"
 
 [dependencies]
 futures = "0.1.17"
